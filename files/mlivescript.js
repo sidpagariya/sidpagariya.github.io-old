@@ -1,5 +1,6 @@
 /*
- * NOTE: CONTACT green1139@gmail.com if you would like assistance in making a script for a new poll on MLive or
+ * NOTE: CONTACT green1139@gmail.com if you would like assistance
+ * in making a script for a new poll on MLive or
  * in running this script in your browser...
  * #RigMLivePolls.
  * Peace Out.
@@ -29,9 +30,7 @@ function resub()
     PDV_go9738701();
     setTimeout(check, 1000);
 }
+window.alert = function() {};
+alert = function() {};
+check();
 
-function go()
-{
-    check();
-}
-check()
