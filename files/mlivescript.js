@@ -26,7 +26,15 @@ function resub()
     PDV_go9738701();
     setTimeout(check, 1000);
 }
+/*
+function refreshpage()
+{
+	console.log("Refreshing!");
+	setTimeout(refreshpage, 5000);
+	location.href = "http://highschoolsports.mlive.com/news/article/6870312746219876472/which-kalamazoo-area-boys-track-team-fields-the-best-relays/"
+}
+setTimeout(refreshpage, 10000);*/
+
 window.alert = function() {};
 alert = function() {};
 check();
-
