@@ -13,10 +13,6 @@ function check()
 
 function submit()
 {
-    if (PDV_def9738701.indexOf("input.pds-votebutton") == -1)
-    {
-        PD_button9738701.className = "pds-vote-button-load"
-    }
     var B = document.createElement("SCRIPT");
     B.charset = "utf-8";
     B.src = PDV_nurl9738701 + "?" + (new Date).getTime();
