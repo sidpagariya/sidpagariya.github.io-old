@@ -1,0 +1,89 @@
+<html>
+<head>
+<title>Ch2Section4.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.ln { color: #f8f8f2; font-weight: normal; font-style: normal; }
+.s0 { color: rgb(117,113,94); }
+.s1 { color: rgb(248,248,242); }
+.s2 { color: rgb(102,217,239); font-style: italic; }
+.s3 { color: rgb(249,38,114); }
+.s4 { color: rgb(0,128,128); }
+.s5 { color: rgb(174,129,255); }
+.s6 { color: rgb(92,122,184); }
+</style>
+</head>
+<BODY BGCOLOR="#272822">
+<TABLE CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<TR><TD><CENTER>
+<FONT FACE="Arial, Helvetica" COLOR="#000000">
+SPagariya - Section 2.4 #1, 4, 7, 8 - Advanced CS</FONT>
+</center></TD></TR></TABLE>
+<pre>
+<a name="l1"><span class="ln">1    </span></a><span class="s0">&quot;&quot;&quot; 
+<a name="l2"><span class="ln">2    </span></a>NAME    :   Siddhant Pagariya 
+<a name="l3"><span class="ln">3    </span></a>DATE    :   FEB 12 2017 
+<a name="l4"><span class="ln">4    </span></a>GROUP   :   Advanced CS 
+<a name="l5"><span class="ln">5    </span></a>PROG    :   Section 2.4 - &quot;Python Code Structure&quot; 
+<a name="l6"><span class="ln">6    </span></a>SOURCES :   &quot;Mathematics for the Digital Age and Programming in Python&quot; by Litvin and Litvin 
+<a name="l7"><span class="ln">7    </span></a>NOTE    :   Python 3.6 (Newer syntax) 
+<a name="l8"><span class="ln">8    </span></a>&quot;&quot;&quot;</span><span class="s1"> 
+<a name="l9"><span class="ln">9    </span></a> 
+<a name="l10"><span class="ln">10   </span></a></span><span class="s2">from </span><span class="s1">Ch1Section5P1 </span><span class="s2">import </span><span class="s1">nl 
+<a name="l11"><span class="ln">11   </span></a> 
+<a name="l12"><span class="ln">12   </span></a></span><span class="s2">if </span><span class="s1">__name__ </span><span class="s3">== </span><span class="s4">'__main__'</span><span class="s3">:</span><span class="s1"> 
+<a name="l13"><span class="ln">13   </span></a></span><span class="s0"># Signature.</span><span class="s1"> 
+<a name="l14"><span class="ln">14   </span></a>    print(</span><span class="s4">&quot;Siddhant Pagariya</span><span class="s5">\n</span><span class="s4">Section 2.4 </span><span class="s5">\&quot;</span><span class="s4">Exploring Functions in Python</span><span class="s5">\&quot;</span><span class="s4"> #1, 4, 7, 8</span><span class="s5">\n</span><span class="s4">Advanced CS</span><span class="s5">\n</span><span class="s4">&quot;</span><span class="s1">) 
+<a name="l15"><span class="ln">15   </span></a> 
+<a name="l16"><span class="ln">16   </span></a></span><span class="s2">if </span><span class="s1">__name__ </span><span class="s3">== </span><span class="s4">'__main__'</span><span class="s3">:</span><span class="s1"> 
+<a name="l17"><span class="ln">17   </span></a>    nl(</span><span class="s5">0</span><span class="s1">) 
+<a name="l18"><span class="ln">18   </span></a></span><span class="s0"># Exercise 1</span><span class="s1"> 
+<a name="l19"><span class="ln">19   </span></a></span><span class="s2">def </span><span class="s1">first(s)</span><span class="s3">:</span><span class="s1"> 
+<a name="l20"><span class="ln">20   </span></a>    </span><span class="s0">&quot;Returns the first element of a given collection, s.&quot;</span><span class="s1"> 
+<a name="l21"><span class="ln">21   </span></a>    </span><span class="s2">return </span><span class="s1">s[</span><span class="s5">0</span><span class="s1">] 
+<a name="l22"><span class="ln">22   </span></a>print(</span><span class="s4">&quot;first('Hello, world') = &quot;</span><span class="s6">, </span><span class="s1">first(</span><span class="s4">'Hello, world'</span><span class="s1">)) 
+<a name="l23"><span class="ln">23   </span></a>print(</span><span class="s4">&quot;The documentation for the function: first, is: &quot;</span><span class="s6">, </span><span class="s1">first.__doc__) 
+<a name="l24"><span class="ln">24   </span></a> 
+<a name="l25"><span class="ln">25   </span></a></span><span class="s2">if </span><span class="s1">__name__ </span><span class="s3">== </span><span class="s4">'__main__'</span><span class="s3">:</span><span class="s1"> 
+<a name="l26"><span class="ln">26   </span></a>    nl(</span><span class="s5">3</span><span class="s1">) 
+<a name="l27"><span class="ln">27   </span></a></span><span class="s0"># Exercise 4</span><span class="s1"> 
+<a name="l28"><span class="ln">28   </span></a></span><span class="s0"># Try and find the output for print('One is better than \none' + '; two is better than one').</span><span class="s1"> 
+<a name="l29"><span class="ln">29   </span></a>print(</span><span class="s4">&quot;Output for the following command:</span><span class="s5">\n</span><span class="s4">print('One is better than </span><span class="s5">\\</span><span class="s4">none' + '; two is better than one') is: &quot;</span><span class="s1">) 
+<a name="l30"><span class="ln">30   </span></a>print(</span><span class="s4">'One is better than </span><span class="s5">\n</span><span class="s4">one' </span><span class="s3">+ </span><span class="s4">'; two is better than one'</span><span class="s1">) 
+<a name="l31"><span class="ln">31   </span></a> 
+<a name="l32"><span class="ln">32   </span></a></span><span class="s2">if </span><span class="s1">__name__ </span><span class="s3">== </span><span class="s4">'__main__'</span><span class="s3">:</span><span class="s1"> 
+<a name="l33"><span class="ln">33   </span></a>    nl(</span><span class="s5">6</span><span class="s1">) 
+<a name="l34"><span class="ln">34   </span></a></span><span class="s0"># Exercise 7</span><span class="s1"> 
+<a name="l35"><span class="ln">35   </span></a></span><span class="s0"># Define a function that takes a string s and returns a new string consisting of the first and last characters in s.</span><span class="s1"> 
+<a name="l36"><span class="ln">36   </span></a></span><span class="s2">def </span><span class="s1">firstlast(s)</span><span class="s3">:</span><span class="s1"> 
+<a name="l37"><span class="ln">37   </span></a>    </span><span class="s0">&quot;Returns a new string consisting of the first and last characters of the given string, s.&quot;</span><span class="s1"> 
+<a name="l38"><span class="ln">38   </span></a>    </span><span class="s2">return </span><span class="s1">s[</span><span class="s5">0</span><span class="s1">]</span><span class="s3">+</span><span class="s1">s[</span><span class="s3">-</span><span class="s5">1</span><span class="s1">] 
+<a name="l39"><span class="ln">39   </span></a> 
+<a name="l40"><span class="ln">40   </span></a></span><span class="s0"># Test firstlast function.</span><span class="s1"> 
+<a name="l41"><span class="ln">41   </span></a>print(</span><span class="s4">'The firstlast function: (Documentation) -- ' </span><span class="s3">+ </span><span class="s1">str(firstlast.__doc__)) 
+<a name="l42"><span class="ln">42   </span></a>print(</span><span class="s4">'firstlast(&quot;Siddhant&quot;) = '</span><span class="s6">, </span><span class="s1">firstlast(</span><span class="s4">&quot;Siddhant&quot;</span><span class="s1">)) 
+<a name="l43"><span class="ln">43   </span></a>print(</span><span class="s4">'firstlast(&quot;KAMSC&quot;) = '</span><span class="s6">, </span><span class="s1">firstlast(</span><span class="s4">&quot;KAMSC&quot;</span><span class="s1">)) 
+<a name="l44"><span class="ln">44   </span></a> 
+<a name="l45"><span class="ln">45   </span></a></span><span class="s2">if </span><span class="s1">__name__ </span><span class="s3">== </span><span class="s4">'__main__'</span><span class="s3">:</span><span class="s1"> 
+<a name="l46"><span class="ln">46   </span></a>    nl(</span><span class="s5">7</span><span class="s1">) 
+<a name="l47"><span class="ln">47   </span></a></span><span class="s0"># Exercise 8</span><span class="s1"> 
+<a name="l48"><span class="ln">48   </span></a></span><span class="s0"># Define a function triangle(s) to output a triangle with the given one-character string, s.</span><span class="s1"> 
+<a name="l49"><span class="ln">49   </span></a></span><span class="s2">def </span><span class="s1">triangle(s)</span><span class="s3">:</span><span class="s1"> 
+<a name="l50"><span class="ln">50   </span></a>    n </span><span class="s3">= </span><span class="s5">5</span><span class="s1"> 
+<a name="l51"><span class="ln">51   </span></a>    </span><span class="s2">for </span><span class="s1">i </span><span class="s2">in </span><span class="s1">range(n</span><span class="s6">,</span><span class="s5">0</span><span class="s6">,</span><span class="s3">-</span><span class="s5">2</span><span class="s1">)</span><span class="s3">:</span><span class="s1"> 
+<a name="l52"><span class="ln">52   </span></a>        </span><span class="s2">for </span><span class="s1">sp </span><span class="s2">in </span><span class="s1">range(</span><span class="s5">0</span><span class="s6">, </span><span class="s1">(n</span><span class="s3">-</span><span class="s1">i)</span><span class="s3">//</span><span class="s5">2</span><span class="s1">)</span><span class="s3">:</span><span class="s1"> 
+<a name="l53"><span class="ln">53   </span></a>            print(</span><span class="s4">' '</span><span class="s6">, </span><span class="s1">end</span><span class="s3">=</span><span class="s4">''</span><span class="s1">) 
+<a name="l54"><span class="ln">54   </span></a>        </span><span class="s2">for </span><span class="s1">j </span><span class="s2">in </span><span class="s1">range(</span><span class="s5">0</span><span class="s6">, </span><span class="s1">i)</span><span class="s3">:</span><span class="s1"> 
+<a name="l55"><span class="ln">55   </span></a>            print(s</span><span class="s6">, </span><span class="s1">end</span><span class="s3">=</span><span class="s4">''</span><span class="s1">) 
+<a name="l56"><span class="ln">56   </span></a>        print() 
+<a name="l57"><span class="ln">57   </span></a>    </span><span class="s2">return</span><span class="s1"> 
+<a name="l58"><span class="ln">58   </span></a></span><span class="s0">#Yes, we can omit the return statement to make the function void. The function will return None when it exits.</span><span class="s1"> 
+<a name="l59"><span class="ln">59   </span></a> 
+<a name="l60"><span class="ln">60   </span></a></span><span class="s0"># Test triangle function.</span><span class="s1"> 
+<a name="l61"><span class="ln">61   </span></a>print(</span><span class="s4">&quot;triangle('s'):</span><span class="s5">\n</span><span class="s4">&quot;</span><span class="s1">) 
+<a name="l62"><span class="ln">62   </span></a>triangle(</span><span class="s4">'s'</span><span class="s1">) 
+<a name="l63"><span class="ln">63   </span></a>print(</span><span class="s4">&quot;</span><span class="s5">\n</span><span class="s4">triangle('*'):</span><span class="s5">\n</span><span class="s4">&quot;</span><span class="s1">) 
+<a name="l64"><span class="ln">64   </span></a>rt </span><span class="s3">= </span><span class="s1">triangle(</span><span class="s4">'*'</span><span class="s1">) 
+<a name="l65"><span class="ln">65   </span></a>print(</span><span class="s4">&quot;</span><span class="s5">\n</span><span class="s4">The function triangle('*') returns: &quot;</span><span class="s6">, </span><span class="s1">rt)</span></pre>
+</body>
+</html>

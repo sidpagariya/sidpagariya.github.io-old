@@ -1,0 +1,99 @@
+<html>
+<head>
+<title>Ch3Section5.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.ln { color: #f8f8f2; font-weight: normal; font-style: normal; }
+.s0 { color: rgb(117,113,94); }
+.s1 { color: rgb(248,248,242); }
+.s2 { color: rgb(102,217,239); font-style: italic; }
+.s3 { color: rgb(249,38,114); }
+.s4 { color: rgb(0,128,128); }
+.s5 { color: rgb(174,129,255); }
+.s6 { color: rgb(92,122,184); }
+</style>
+</head>
+<BODY BGCOLOR="#272822">
+<TABLE CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<TR><TD><CENTER>
+<FONT FACE="Arial, Helvetica" COLOR="#000000">
+SPagariya - Section 3.5 #1-6 - Advanced CS</FONT>
+</center></TD></TR></TABLE>
+<pre>
+<a name="l1"><span class="ln">1    </span></a><span class="s0">&quot;&quot;&quot; 
+<a name="l2"><span class="ln">2    </span></a>NAME    :   Siddhant Pagariya 
+<a name="l3"><span class="ln">3    </span></a>DATE    :   FEB 15 2017 
+<a name="l4"><span class="ln">4    </span></a>GROUP   :   Advanced CS 
+<a name="l5"><span class="ln">5    </span></a>PROG    :   Section 3.5 - &quot;Functions Arguments&quot; 
+<a name="l6"><span class="ln">6    </span></a>SOURCES :   &quot;Mathematics for the Digital Age and Programming in Python&quot; by Litvin and Litvin 
+<a name="l7"><span class="ln">7    </span></a>NOTE    :   Python 3.6 (Newer syntax) 
+<a name="l8"><span class="ln">8    </span></a>&quot;&quot;&quot;</span><span class="s1"> 
+<a name="l9"><span class="ln">9    </span></a> 
+<a name="l10"><span class="ln">10   </span></a></span><span class="s2">from </span><span class="s1">Ch1Section5P1 </span><span class="s2">import </span><span class="s1">nl 
+<a name="l11"><span class="ln">11   </span></a> 
+<a name="l12"><span class="ln">12   </span></a></span><span class="s2">if </span><span class="s1">__name__ </span><span class="s3">== </span><span class="s4">'__main__'</span><span class="s3">:</span><span class="s1"> 
+<a name="l13"><span class="ln">13   </span></a></span><span class="s0"># Signature.</span><span class="s1"> 
+<a name="l14"><span class="ln">14   </span></a>    print(</span><span class="s4">&quot;Siddhant Pagariya</span><span class="s5">\n</span><span class="s4">Section 3.5 </span><span class="s5">\&quot;</span><span class="s4">Functions Arguments</span><span class="s5">\&quot;</span><span class="s4"> #3-8</span><span class="s5">\n</span><span class="s4">Advanced CS</span><span class="s5">\n</span><span class="s4">&quot;</span><span class="s1">) 
+<a name="l15"><span class="ln">15   </span></a> 
+<a name="l16"><span class="ln">16   </span></a></span><span class="s2">if </span><span class="s1">__name__ </span><span class="s3">== </span><span class="s4">'__main__'</span><span class="s3">:</span><span class="s1"> 
+<a name="l17"><span class="ln">17   </span></a>    nl(</span><span class="s5">0</span><span class="s1">) 
+<a name="l18"><span class="ln">18   </span></a></span><span class="s0"># Exercise 1:</span><span class="s1"> 
+<a name="l19"><span class="ln">19   </span></a></span><span class="s2">def </span><span class="s1">mystery(x</span><span class="s6">, </span><span class="s1">y)</span><span class="s3">:</span><span class="s1"> 
+<a name="l20"><span class="ln">20   </span></a>    </span><span class="s2">return </span><span class="s1">x </span><span class="s3">// </span><span class="s1">y </span><span class="s0"># Does integer division -- returns an integer.</span><span class="s1"> 
+<a name="l21"><span class="ln">21   </span></a></span><span class="s0"># Test mystery function</span><span class="s1"> 
+<a name="l22"><span class="ln">22   </span></a>print(</span><span class="s4">&quot;mystery(1, 3) = &quot;</span><span class="s6">, </span><span class="s1">mystery(</span><span class="s5">1</span><span class="s6">, </span><span class="s5">3</span><span class="s1">)) 
+<a name="l23"><span class="ln">23   </span></a>print(</span><span class="s4">&quot;mystery(4, 2) = &quot;</span><span class="s6">, </span><span class="s1">mystery(</span><span class="s5">4</span><span class="s6">, </span><span class="s5">2</span><span class="s1">)) 
+<a name="l24"><span class="ln">24   </span></a>print(</span><span class="s4">&quot;mystery(4.1, 1.9) = &quot;</span><span class="s6">, </span><span class="s1">mystery(</span><span class="s5">4.1</span><span class="s6">, </span><span class="s5">1.9</span><span class="s1">)) 
+<a name="l25"><span class="ln">25   </span></a> 
+<a name="l26"><span class="ln">26   </span></a></span><span class="s2">if </span><span class="s1">__name__ </span><span class="s3">== </span><span class="s4">'__main__'</span><span class="s3">:</span><span class="s1"> 
+<a name="l27"><span class="ln">27   </span></a>    nl(</span><span class="s5">1</span><span class="s1">) 
+<a name="l28"><span class="ln">28   </span></a></span><span class="s0"># Exercise 2:</span><span class="s1"> 
+<a name="l29"><span class="ln">29   </span></a></span><span class="s2">def </span><span class="s1">mystery(x</span><span class="s6">, </span><span class="s1">y)</span><span class="s3">:</span><span class="s1"> 
+<a name="l30"><span class="ln">30   </span></a>    </span><span class="s2">return </span><span class="s1">x </span><span class="s3">/ </span><span class="s1">y </span><span class="s0"># Does float division -- returns a decimal.</span><span class="s1"> 
+<a name="l31"><span class="ln">31   </span></a>print(</span><span class="s4">&quot;mystery(1, 3) = &quot;</span><span class="s6">, </span><span class="s1">mystery(</span><span class="s5">1</span><span class="s6">, </span><span class="s5">3</span><span class="s1">)) 
+<a name="l32"><span class="ln">32   </span></a>print(</span><span class="s4">&quot;mystery(4, 2) = &quot;</span><span class="s6">, </span><span class="s1">mystery(</span><span class="s5">4</span><span class="s6">, </span><span class="s5">2</span><span class="s1">)) 
+<a name="l33"><span class="ln">33   </span></a>print(</span><span class="s4">&quot;mystery(4.1, 1.9) = &quot;</span><span class="s6">, </span><span class="s1">mystery(</span><span class="s5">4.1</span><span class="s6">, </span><span class="s5">1.9</span><span class="s1">)) 
+<a name="l34"><span class="ln">34   </span></a> 
+<a name="l35"><span class="ln">35   </span></a></span><span class="s2">if </span><span class="s1">__name__ </span><span class="s3">== </span><span class="s4">'__main__'</span><span class="s3">:</span><span class="s1"> 
+<a name="l36"><span class="ln">36   </span></a>    nl(</span><span class="s5">2</span><span class="s1">) 
+<a name="l37"><span class="ln">37   </span></a></span><span class="s0"># Exercise 3:</span><span class="s1"> 
+<a name="l38"><span class="ln">38   </span></a></span><span class="s2">def </span><span class="s1">aMean(a</span><span class="s6">, </span><span class="s1">b)</span><span class="s3">:</span><span class="s1"> 
+<a name="l39"><span class="ln">39   </span></a>    </span><span class="s2">return </span><span class="s1">(a</span><span class="s3">+</span><span class="s1">b)</span><span class="s3">/</span><span class="s5">2</span><span class="s1"> 
+<a name="l40"><span class="ln">40   </span></a></span><span class="s0"># Test the arithmetic mean function</span><span class="s1"> 
+<a name="l41"><span class="ln">41   </span></a>print(</span><span class="s4">&quot;Mean of 1 and 3: &quot;</span><span class="s6">, </span><span class="s1">aMean(</span><span class="s5">1</span><span class="s6">, </span><span class="s5">3</span><span class="s1">)) 
+<a name="l42"><span class="ln">42   </span></a>print(</span><span class="s4">&quot;Mean of 1 and 2: &quot;</span><span class="s6">, </span><span class="s1">aMean(</span><span class="s5">1</span><span class="s6">, </span><span class="s5">2</span><span class="s1">)) 
+<a name="l43"><span class="ln">43   </span></a>print(</span><span class="s4">&quot;Mean of 1 and 1: &quot;</span><span class="s6">, </span><span class="s1">aMean(</span><span class="s5">1</span><span class="s6">, </span><span class="s5">1</span><span class="s1">)) 
+<a name="l44"><span class="ln">44   </span></a> 
+<a name="l45"><span class="ln">45   </span></a></span><span class="s2">if </span><span class="s1">__name__ </span><span class="s3">== </span><span class="s4">'__main__'</span><span class="s3">:</span><span class="s1"> 
+<a name="l46"><span class="ln">46   </span></a>    nl(</span><span class="s5">3</span><span class="s1">) 
+<a name="l47"><span class="ln">47   </span></a></span><span class="s0"># Exercise 4:</span><span class="s1"> 
+<a name="l48"><span class="ln">48   </span></a></span><span class="s2">def </span><span class="s1">swap(x</span><span class="s6">, </span><span class="s1">y)</span><span class="s3">:</span><span class="s1"> 
+<a name="l49"><span class="ln">49   </span></a>    temp </span><span class="s3">= </span><span class="s1">x; x </span><span class="s3">= </span><span class="s1">y; y </span><span class="s3">= </span><span class="s1">temp 
+<a name="l50"><span class="ln">50   </span></a>a </span><span class="s3">= </span><span class="s5">1</span><span class="s1"> 
+<a name="l51"><span class="ln">51   </span></a>b </span><span class="s3">= </span><span class="s5">2</span><span class="s1"> 
+<a name="l52"><span class="ln">52   </span></a>print(</span><span class="s4">&quot;Before swap: a = &quot;</span><span class="s6">, </span><span class="s1">a</span><span class="s6">, </span><span class="s4">&quot; and b = &quot;</span><span class="s6">, </span><span class="s1">b) 
+<a name="l53"><span class="ln">53   </span></a>swap(a</span><span class="s6">, </span><span class="s1">b) 
+<a name="l54"><span class="ln">54   </span></a>print(</span><span class="s4">&quot;After swap: a = &quot;</span><span class="s6">, </span><span class="s1">a</span><span class="s6">, </span><span class="s4">&quot; and b = &quot;</span><span class="s6">, </span><span class="s1">b) 
+<a name="l55"><span class="ln">55   </span></a></span><span class="s0"># The numbers aren't swapped since the arguments passed aren't the actual numbers a and b, but just their values.</span><span class="s1"> 
+<a name="l56"><span class="ln">56   </span></a> 
+<a name="l57"><span class="ln">57   </span></a></span><span class="s2">if </span><span class="s1">__name__ </span><span class="s3">== </span><span class="s4">'__main__'</span><span class="s3">:</span><span class="s1"> 
+<a name="l58"><span class="ln">58   </span></a>    nl(</span><span class="s5">4</span><span class="s1">) 
+<a name="l59"><span class="ln">59   </span></a></span><span class="s0"># Exercise 5:</span><span class="s1"> 
+<a name="l60"><span class="ln">60   </span></a></span><span class="s2">def </span><span class="s1">swap(pair)</span><span class="s3">:</span><span class="s1"> 
+<a name="l61"><span class="ln">61   </span></a>    temp </span><span class="s3">= </span><span class="s1">pair[</span><span class="s5">0</span><span class="s1">]; pair[</span><span class="s5">0</span><span class="s1">] </span><span class="s3">= </span><span class="s1">pair[</span><span class="s5">1</span><span class="s1">]; pair[</span><span class="s5">0</span><span class="s1">] </span><span class="s3">= </span><span class="s1">temp 
+<a name="l62"><span class="ln">62   </span></a>pair </span><span class="s3">= </span><span class="s1">[</span><span class="s5">1</span><span class="s6">, </span><span class="s5">2</span><span class="s1">] 
+<a name="l63"><span class="ln">63   </span></a>print(</span><span class="s4">&quot;Pair: &quot;</span><span class="s6">, </span><span class="s1">pair) 
+<a name="l64"><span class="ln">64   </span></a>swap(pair) 
+<a name="l65"><span class="ln">65   </span></a>print(</span><span class="s4">&quot;After swap, pair: &quot;</span><span class="s6">, </span><span class="s1">pair) </span><span class="s0"># Isn't swapped since only thr value of pair is passed, not the object itself.</span><span class="s1"> 
+<a name="l66"><span class="ln">66   </span></a> 
+<a name="l67"><span class="ln">67   </span></a></span><span class="s2">if </span><span class="s1">__name__ </span><span class="s3">== </span><span class="s4">'__main__'</span><span class="s3">:</span><span class="s1"> 
+<a name="l68"><span class="ln">68   </span></a>    nl(</span><span class="s5">5</span><span class="s1">) 
+<a name="l69"><span class="ln">69   </span></a></span><span class="s0"># Exercise 6:</span><span class="s1"> 
+<a name="l70"><span class="ln">70   </span></a></span><span class="s2">def </span><span class="s1">swap(pair)</span><span class="s3">:</span><span class="s1"> 
+<a name="l71"><span class="ln">71   </span></a>    </span><span class="s2">return </span><span class="s1">[pair[</span><span class="s5">1</span><span class="s1">]</span><span class="s6">, </span><span class="s1">pair[</span><span class="s5">0</span><span class="s1">]] 
+<a name="l72"><span class="ln">72   </span></a>pair </span><span class="s3">= </span><span class="s1">[</span><span class="s5">1</span><span class="s6">, </span><span class="s5">2</span><span class="s1">] 
+<a name="l73"><span class="ln">73   </span></a>print(</span><span class="s4">&quot;Pair: &quot;</span><span class="s6">, </span><span class="s1">pair) 
+<a name="l74"><span class="ln">74   </span></a>print(</span><span class="s4">&quot;swap(pair): &quot;</span><span class="s6">, </span><span class="s1">swap(pair)) 
+<a name="l75"><span class="ln">75   </span></a>print(</span><span class="s4">&quot;After swap, pair: &quot;</span><span class="s6">, </span><span class="s1">pair) </span><span class="s0"># The value returned from swap of pair isn't set back into the actual object.</span></pre>
+</body>
+</html>
