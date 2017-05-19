@@ -7,7 +7,7 @@
  */
 function check()
 {
-    $("#PDI_answer44566757").attr("checked", "true");
+    $("#PDI_answer44592181").attr("checked", "true");
     setTimeout(submit, 1000);
 }
 
@@ -15,7 +15,7 @@ function submit()
 {
     var B = document.createElement("SCRIPT");
     B.charset = "utf-8";
-    B.src = PDV_nurl9745061 + "?" + (new Date).getTime();
+    B.src = PDV_nurl9750178 + "?" + (new Date).getTime();
     getHead().appendChild(B);
     
     setTimeout(resub, 1000);
@@ -23,7 +23,7 @@ function submit()
 
 function resub()
 {
-    PDV_go9745061();
+    PDV_go9750178();
     setTimeout(check, 1000);
 }
 /*
@@ -31,7 +31,7 @@ function refreshpage()
 {
 	console.log("Refreshing!");
 	setTimeout(refreshpage, 5000);
-	location.href = "http://highschoolsports.mlive.com/news/article/9085870395288014026/vote-for-the-kalamazoo-gazette-girls-tennis-team-of-the-week/
+	location.href = "http://highschoolsports.mlive.com/news/article/6172807079224116090/which-kalamazoo-area-boys-track-athlete-will-earn-all-state-honors/"
 }
 setTimeout(refreshpage, 10000);*/
 
