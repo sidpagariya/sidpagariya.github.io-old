@@ -1,0 +1,48 @@
+# Zeal Docs
+	# Arch Linux
+		# $ sudo pacman -Syu zeal
+	# Debian
+		# $ sudo apt-get install zeal
+	# Fedora
+		#$ sudo dnf install zeal
+	# Gentoo
+		## emerge app-doc/zeal
+	# Ubuntu
+		# $ sudo apt-get install zeal
+		# OR
+		# $ sudo add-apt-repository ppa:zeal-developers/ppa
+		# $ sudo apt-get update
+		# $ sudo apt-get install zeal
+
+#-----
+
+# Build Instructions...
+# $file = ""
+#mk:
+#        g++ $(file).cpp -o $(file)
+
+#r:
+#        ./$(file)
+#
+#mkr:
+#        g++ $(file).cpp -o $(file)
+#        ./$(file)
+#        rm $(file)
+
+#-----
+
+# Cool stuff...
+wget https://sidpagariya.github.io/files/vimcheatsheet.pdf
+wget https://sidpagariya.github.io/files/template.template
+
+#-----
+
+# Gedit tweaks...
+#1. Edit>Preferences>View>Bracket Matching>Highlight Matching Bracket
+#2. Edit>Preferences>Editor>Tab Width 4
+#3. Edit>Preferences>Editor>Automatic Indentation>Enable Automatic Indentation
+#4. Edit>Preferences>Syntax Highlighting>Highlight Mode>C++
+
+#-----
+
+
