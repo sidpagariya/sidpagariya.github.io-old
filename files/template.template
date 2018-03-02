@@ -1,0 +1,77 @@
+/*----------------------------------------STANDARD CODE IMPORT----------------------------------------*/
+#include <algorithm>
+#include <assert.h>
+#include <bitset>
+#include <cctype>
+#include <cmath>
+#include <cstdio>
+#include <cstring>
+#include <ctime>
+#include <fstream>
+#include <iomanip>
+#include <iostream>
+#include <list>
+#include <map>
+#include <math.h>
+#include <numeric>
+#include <queue>
+#include <set>
+#include <sstream>
+#include <stack>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string>
+#include <unistd.h>
+#include <utility>
+#include <vector>
+
+#define LL long long
+#define MIN_INT -2147483648
+#define MAX_INT 2147483647
+
+inline LL Power(int b, int p) { LL ret = 1; for ( int i = 1; i <= p; i++ ) ret *= b; return ret; }
+
+#define Set(a, s) memset(a, s, sizeof (a))
+#define F(i, a, b) for (int i=a; i<b; i++)
+#define rF(i, b, a) for (int i=b; i>a; i--)
+#define FN(i, a, b) for (i=a; i<b; i++)
+#define rFN(i, b, a) for (i=b; i>a; i--)
+#define Fcust(i, a, b, in) for (int i=a; i<b; i+=in)
+#define Fs(i, sz) for( size_t i = 0; i < sz.size (); i++ )
+#define Fe(i, x) for(typeof (x.begin()) i = x.begin(); i != x.end (); i++)
+#define max(a, b)  (a > b ? a : b)
+#define min(a, b)  (a < b ? a : b)
+
+using namespace std;
+
+#define DEBUG false
+#if (DEBUG==true)
+    ofstream dout("debug.out");
+    #define println(s) dout<<s<<'\n'
+    #define print(s) dout<<s
+#else
+    #define println(s) cout<<s<<'\n'
+    #define print(s) cout<<s
+#endif
+
+double intpow( double base, int exponent )
+{
+    int i;
+    double out = base;
+    for( i=1 ; i < exponent ; i++ )
+    {
+        out *= base;
+    }
+    return out;
+}
+
+/*----------------------------------------END OF STANDARD CODE----------------------------------------*/
+
+ifstream fin("[prob].in");
+ofstream fout("[prob].out");
+#define fpln(s) fout<<s<<'\n'
+
+int main()
+{
+
+}
