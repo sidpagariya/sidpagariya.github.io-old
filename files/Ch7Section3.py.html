@@ -1,0 +1,76 @@
+<html>
+<head>
+<title>Ch7Section3.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.ln { color: #f8f8f2; font-weight: normal; font-style: normal; }
+.s0 { color: rgb(117,113,94); }
+.s1 { color: rgb(248,248,242); }
+.s2 { color: rgb(102,217,239); font-style: italic; }
+.s3 { color: rgb(249,38,114); }
+.s4 { color: rgb(0,128,128); }
+.s5 { color: rgb(174,129,255); }
+.s6 { color: rgb(92,122,184); }
+</style>
+</head>
+<BODY BGCOLOR="#272822">
+<TABLE CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<TR><TD><CENTER>
+<FONT FACE="Arial, Helvetica" COLOR="#000000">
+SPagariya - Section 7.3 #9, 10 - Advanced CS</FONT>
+</center></TD></TR></TABLE>
+<pre>
+<a name="l1"><span class="ln">1    </span></a><span class="s0">&quot;&quot;&quot; 
+<a name="l2"><span class="ln">2    </span></a>NAME    :   Siddhant Pagariya 
+<a name="l3"><span class="ln">3    </span></a>DATE    :   MAY 15 2017 
+<a name="l4"><span class="ln">4    </span></a>GROUP   :   Advanced CS 
+<a name="l5"><span class="ln">5    </span></a>PROG    :   Section 7.3 - &quot;Digital Circuits and Bitwise Operators&quot; 
+<a name="l6"><span class="ln">6    </span></a>SOURCES :   &quot;Mathematics for the Digital Age and Programming in Python&quot; by Litvin and Litvin 
+<a name="l7"><span class="ln">7    </span></a>NOTE    :   Python 3.6 (Newer syntax) 
+<a name="l8"><span class="ln">8    </span></a>&quot;&quot;&quot;</span><span class="s1"> 
+<a name="l9"><span class="ln">9    </span></a> 
+<a name="l10"><span class="ln">10   </span></a></span><span class="s2">from </span><span class="s1">Ch1Section5P1 </span><span class="s2">import </span><span class="s1">nl 
+<a name="l11"><span class="ln">11   </span></a></span><span class="s2">from </span><span class="s1">customStart </span><span class="s2">import </span><span class="s1">signature 
+<a name="l12"><span class="ln">12   </span></a></span><span class="s2">from </span><span class="s1">random </span><span class="s2">import </span><span class="s1">choice 
+<a name="l13"><span class="ln">13   </span></a> 
+<a name="l14"><span class="ln">14   </span></a></span><span class="s2">if </span><span class="s1">__name__ </span><span class="s3">== </span><span class="s4">'__main__'</span><span class="s3">:</span><span class="s1"> 
+<a name="l15"><span class="ln">15   </span></a></span><span class="s0"># Signature.</span><span class="s1"> 
+<a name="l16"><span class="ln">16   </span></a>    signature(</span><span class="s4">&quot;Section 7.3 </span><span class="s5">\&quot;</span><span class="s4">Digital Circuits and Bitwise Operators</span><span class="s5">\&quot;</span><span class="s4"> #9, 10&quot;</span><span class="s1">) 
+<a name="l17"><span class="ln">17   </span></a> 
+<a name="l18"><span class="ln">18   </span></a></span><span class="s2">if </span><span class="s1">__name__ </span><span class="s3">== </span><span class="s4">'__main__'</span><span class="s3">:</span><span class="s1"> 
+<a name="l19"><span class="ln">19   </span></a>    nl(</span><span class="s5">8</span><span class="s1">) 
+<a name="l20"><span class="ln">20   </span></a></span><span class="s0"># Exercise 9:</span><span class="s1"> 
+<a name="l21"><span class="ln">21   </span></a></span><span class="s2">def </span><span class="s1">intToHex(n)</span><span class="s3">:</span><span class="s1"> 
+<a name="l22"><span class="ln">22   </span></a>    s </span><span class="s3">= </span><span class="s4">''</span><span class="s1"> 
+<a name="l23"><span class="ln">23   </span></a>    hdigs </span><span class="s3">= </span><span class="s4">'0123456789abcdef'</span><span class="s1"> 
+<a name="l24"><span class="ln">24   </span></a>    count </span><span class="s3">= </span><span class="s5">1</span><span class="s1"> 
+<a name="l25"><span class="ln">25   </span></a>    </span><span class="s2">while </span><span class="s1">count </span><span class="s3">&lt;= </span><span class="s5">8</span><span class="s3">:</span><span class="s1"> 
+<a name="l26"><span class="ln">26   </span></a>        l4bits </span><span class="s3">= </span><span class="s1">(n </span><span class="s3">&amp; </span><span class="s5">0x0f</span><span class="s1">) 
+<a name="l27"><span class="ln">27   </span></a>        s </span><span class="s3">= </span><span class="s1">hdigs[l4bits] </span><span class="s3">+ </span><span class="s1">s 
+<a name="l28"><span class="ln">28   </span></a>        n </span><span class="s3">&gt;&gt;= </span><span class="s5">4</span><span class="s1"> 
+<a name="l29"><span class="ln">29   </span></a>        count </span><span class="s3">+= </span><span class="s5">1</span><span class="s1"> 
+<a name="l30"><span class="ln">30   </span></a>    </span><span class="s2">return </span><span class="s1">s 
+<a name="l31"><span class="ln">31   </span></a></span><span class="s0"># Test the intToHex function.</span><span class="s1"> 
+<a name="l32"><span class="ln">32   </span></a>print(</span><span class="s4">&quot;intToHex(4294967295):&quot;</span><span class="s6">, </span><span class="s1">intToHex(</span><span class="s5">4294967295</span><span class="s1">)) 
+<a name="l33"><span class="ln">33   </span></a>print(</span><span class="s4">&quot;intToHex(65536):&quot;</span><span class="s6">, </span><span class="s1">intToHex(</span><span class="s5">65536</span><span class="s1">)) 
+<a name="l34"><span class="ln">34   </span></a>print(</span><span class="s4">&quot;intToHex(0):&quot;</span><span class="s6">, </span><span class="s1">intToHex(</span><span class="s5">0</span><span class="s1">)) 
+<a name="l35"><span class="ln">35   </span></a> 
+<a name="l36"><span class="ln">36   </span></a></span><span class="s2">if </span><span class="s1">__name__ </span><span class="s3">== </span><span class="s4">'__main__'</span><span class="s3">:</span><span class="s1"> 
+<a name="l37"><span class="ln">37   </span></a>    nl(</span><span class="s5">9</span><span class="s1">) 
+<a name="l38"><span class="ln">38   </span></a></span><span class="s0"># Exercise 10:</span><span class="s1"> 
+<a name="l39"><span class="ln">39   </span></a></span><span class="s2">def </span><span class="s1">revBits(n)</span><span class="s3">:</span><span class="s1"> 
+<a name="l40"><span class="ln">40   </span></a>    revv</span><span class="s3">=</span><span class="s5">0</span><span class="s1"> 
+<a name="l41"><span class="ln">41   </span></a>    abit </span><span class="s3">= </span><span class="s5">0x01</span><span class="s1"> 
+<a name="l42"><span class="ln">42   </span></a>    rBit </span><span class="s3">= </span><span class="s5">0x20000000</span><span class="s1"> 
+<a name="l43"><span class="ln">43   </span></a>    </span><span class="s2">while </span><span class="s1">rBit </span><span class="s3">!= </span><span class="s5">0</span><span class="s3">:</span><span class="s1"> 
+<a name="l44"><span class="ln">44   </span></a>        </span><span class="s2">if </span><span class="s1">(n </span><span class="s3">&amp; </span><span class="s1">abit) </span><span class="s3">!= </span><span class="s5">0</span><span class="s3">:</span><span class="s1"> 
+<a name="l45"><span class="ln">45   </span></a>            revv </span><span class="s3">|= </span><span class="s1">rBit 
+<a name="l46"><span class="ln">46   </span></a>        abit </span><span class="s3">&lt;&lt;= </span><span class="s5">1</span><span class="s1"> 
+<a name="l47"><span class="ln">47   </span></a>        rBit </span><span class="s3">&gt;&gt;= </span><span class="s5">1</span><span class="s1"> 
+<a name="l48"><span class="ln">48   </span></a>    </span><span class="s2">return </span><span class="s1">revv 
+<a name="l49"><span class="ln">49   </span></a></span><span class="s0"># Test the revBits function.</span><span class="s1"> 
+<a name="l50"><span class="ln">50   </span></a>print(</span><span class="s4">&quot;revBits(268435455):&quot;</span><span class="s6">, </span><span class="s1">revBits(</span><span class="s5">268435455</span><span class="s1">)) 
+<a name="l51"><span class="ln">51   </span></a>print(</span><span class="s4">&quot;revBits(4294967297):&quot;</span><span class="s6">, </span><span class="s1">revBits(</span><span class="s5">4294967297</span><span class="s1">)) 
+<a name="l52"><span class="ln">52   </span></a>print(</span><span class="s4">&quot;revBits(0):&quot;</span><span class="s6">, </span><span class="s1">revBits(</span><span class="s5">0</span><span class="s1">))</span></pre>
+</body>
+</html>
