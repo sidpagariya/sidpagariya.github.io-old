@@ -1,52 +1,56 @@
-printRight(3): 
+printRight(3):
 *
 **
 ***
 
-printRight_upsideDown_rightJustified(3): 
+printRight_upsideDown_rightJustified(3):
 ***
  **
   *
 
-printArray(arr[0], 3): 
+printArray(arr[0], 3):
 A3@
 
-printArray(arr, 2, 3): 
+printArray(arr, 2, 3):
 A3@
 #\9
 
-add(alph[0], 7, 3): 
+add(alph[0], 7, 3):
+"iG6%$#
+ !"3Df~
 
-add(alph, 2, 7, -3): 
+add(alph, 2, 7, -3):
+~fD3"!
+|}~0Ac{
 
-rotateLeft(alph[0], 7): 
+rotateLeft(alph[0], 7):
 fD3"! ~
 
-rotateLeft(alph, 2, 7): 
+rotateLeft(alph, 2, 7):
 D3"! ~f
 }~0Ac{|
 
-rotateRight(alph[0], 7): 
+rotateRight(alph[0], 7):
 fD3"! ~
 
-rotateRight(alph, 2, 7): 
-~fD3"! 
+rotateRight(alph, 2, 7):
+~fD3"!
 |}~0Ac{
 
-swapRange(nums[0], 6, 0, nums[1], 6, 3, 3): 
+swapRange(nums[0], 6, 0, nums[1], 6, 3, 3):
 012456
 789123
 
-swapWithinOneRow(batmanrobin, 12, 6): 
+swapWithinOneRow(batmanrobin, 12, 6):
 $robinbatman
-swapWithinOneRow(batmanrobin, 12, 3): 
+swapWithinOneRow(batmanrobin, 12, 3):
 manbatbin$ro
-swapWithinOneRow(batmanrobin, 12, 5): 
+swapWithinOneRow(batmanrobin, 12, 5):
 n$robbatmain
-swapWithinOneRow(batmanrobin, 12, 8): 
+swapWithinOneRow(batmanrobin, 12, 8):
 batman$robin
 
-swapRows(abc, 3, 3): 
+swapRows(abc, 3, 3):
 def
 abc
 jkl

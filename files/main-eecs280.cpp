@@ -16,8 +16,10 @@ int main()
     char alph[2][SIZE] = {{'~', 'f', 'D', '3', '"', '!', ' '}, {' ', '!', '"', '3', 'D', 'f', '~'}};
     cout << "\nadd(alph[0], 7, 3): " << '\n';
     add(alph[0], 7, 3);
+    printArray(alph, 2, 7);
     cout << "\nadd(alph, 2, 7, -3): " << '\n';
     add(alph, 2, 7, -3);
+    printArray(alph, 2, 7);
 
     cout << "\nrotateLeft(alph[0], 7): " << '\n';
     rotateLeft(alph[0], 7);
