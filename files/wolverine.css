@@ -1,0 +1,124 @@
+#classicbackbuttonlayout > #classicbackbuttoncontainer > .ps-button-wrapper > .ps-button {
+    background-image: linear-gradient(#ffcb06,#ffcb06);
+    border: none;
+    border-radius: 20px;
+    box-shadow: inset 0 0;
+    margin-top: .25em;
+    padding: 0.5em 1em 0.5em 0.5em;
+    padding-left: 0.5em;
+    padding-right: 1em;
+    vertical-align: bottom;
+}
+
+#classicbackbuttonlayout > #classicbackbuttoncontainer > .ps-button-wrapper > .ps-button > .ps-text {
+    color: black;
+    margin-left: 1.5em;
+}
+
+#classicbackbuttonlayout > #classicbackbuttoncontainer > .ps-button-wrapper > .ps-button:before {
+    content: url("https://sids-files.github.io/PT_NUI_BACK_PRIM_IMG_1.svg");
+}
+
+#ptbr_header_container #pthdr2container {
+    background-image: linear-gradient(rgb(0, 42, 74),rgb(0, 42, 74));
+}
+
+#pthdr2navbar {
+    background-image: none;
+}
+
+#pthdr2navbarlinks a.headerbutton:hover, a.headerbutton:active {
+    background-color: #004a84;
+    box-shadow: none;
+}
+
+.PABACKGROUNDINVISIBLE {
+    width: 100%;
+}
+
+.PABACKGROUNDINVISIBLEWBO, .PABACKGROUNDINVISIBLEWBO > tbody > tr > td, .PABACKGROUNDINVISIBLEWBO > tbody > tr > td > table > tbody {
+    width: 100%;
+}
+
+.PSGROUPBOXLABEL {
+    background-color: #ffcb06;
+    border-radius: 20px;
+    color: #002a4a;
+    padding-top: 5px;
+}
+
+.PSGROUPBOXWBO {
+    border: none;
+}
+
+.PSLEVEL1GRIDLABEL, .PSLEVEL2GRIDLABEL, .PSLEVEL3GRIDLABEL, .PSLEVEL1SCROLLAREAHEADER, .PSLEVEL2SCROLLAREAHEADER, .PSLEVEL3SCROLLAREAHEADER {
+    background-color: #fff;
+    color: #002a4a;
+}
+
+.PSPAGECONTAINER > tbody > tr:nth-child(2) > td:nth-child(2) {
+    width: 100%;
+}
+
+.PABACKGROUNDINVISIBLE > tbody > tr > td:first-child, #ACE_DERIVED_SSS_SCL_TITLE1 > tbody > tr:nth-child(2) > td:nth-child(2) {
+}
+
+#ACE_DERIVED_SSS_SCL_ > tbody > tr:first-child > td:first-child {
+    display: none;
+}
+
+.PSPUSHBUTTON span, .PSPUSHBUTTONTB span, .PSPUSHBUTTON span:hover, .PSPUSHBUTTONTBABORT span, .PSPUSHBUTTONTBADD span, .PSPUSHBUTTONTBADDMODE span, .PSPUSHBUTTONTBAPPLY span, .PSPUSHBUTTONTBCANCEL span, .PSPUSHBUTTONTBCLEAR span, .PSPUSHBUTTONTBCONTINUE span, .PSPUSHBUTTONTBCORRECTMODE span, .PSPUSHBUTTONTBDELETE span, .PSPUSHBUTTONTBIGNORE span, .PSPUSHBUTTONTBLOOKUP span, .PSPUSHBUTTONTBNEXTINLIST span, .PSPUSHBUTTONTBNEXTINWORKLIST span, .PSPUSHBUTTONTBNEXTTAB span, .PSPUSHBUTTONTBNO span, .PSPUSHBUTTONTBOK span, .PSPUSHBUTTONTBPOPUP span, .PSPUSHBUTTONTBPREVIEW span, .PSPUSHBUTTONTBPREVINLIST span, .PSPUSHBUTTONTBPREVINWORKLIST span, .PSPUSHBUTTONTBPREVTAB span, .PSPUSHBUTTONTBREFRESH span, .PSPUSHBUTTONTBREFRESH2 span, .PSPUSHBUTTONTBRETRY span, .PSPUSHBUTTONTBRETURN span, .PSPUSHBUTTONTBSAVE span, .PSPUSHBUTTONTBSEARCH span, .PSPUSHBUTTONTBSENDNOTIFY span, .PSPUSHBUTTONTBSPELLCHECK span, .PSPUSHBUTTONTBUPDATEALLMODE span, .PSPUSHBUTTONTBUPDATEMODE span, .PSPUSHBUTTONTBVIEWWORKLIST span, .PSPUSHBUTTONTBYES span, .PSPUSHBUTTONRETURN span, .PSPUSHBUTTONDISABLED span {
+    border-top: 1px solid rgba(254, 251, 244, 0) ;
+}
+
+.PSPUSHBUTTON#Left, .PSPUSHBUTTON.Left {
+    background: #ffcb06;
+    border: 1px solid #ffcb06 ;
+    border-radius: 20px;
+}
+
+.PTCOLLAPSE_ARROW:before {
+    background-image: url("https://sids-files.github.io/expand-button.svg");
+    background-size: 14px 14px;
+    content: "";
+    display: block;
+    height: 14px;
+    width: 14px;
+}
+
+.PTEXPAND_ARROW:before {
+    background-image: url("https://sids-files.github.io/keyboard-right-arrow-button.svg");
+    background-size: 14px 14px;
+    content: "";
+    display: block;
+    height: 14px;
+    width: 14px;
+}
+
+a:focus, img:focus, span:focus, input:focus, select:focus, input[type="button"]:focus {
+    outline: none;
+}
+
+body {
+    /*background: #002a4a;*/
+}
+
+#ACE_\\\$ICField279 > tbody > tr:nth-child(2) > td:first-child, #ACE_\\\$ICField279 > tbody > tr:nth-child(4) > td:first-child, #ACE_\\\$ICField279 > tbody > tr:nth-child(6) > td:first-child {
+    display: none;
+}
+
+#ACE_\\\$ICField279 > tbody > tr:nth-child(2) > td:nth-child(2), #ACE_\\\$ICField279 > tbody > tr:nth-child(4) > td:nth-child(2), #ACE_\\\$ICField279 > tbody > tr:nth-child(6) > td:nth-child(2) {
+    width: 100%;
+}
+
+#win0divDERIVED_SSS_SCL_SS_ACAD_INFO_LINK > table {
+    width: 100%;
+}
+
+#win0divDERIVED_SSS_SCL_SS_MNG_FIN_LINK > table {
+    width: 100%;
+}
+
+#win0divDERIVED_SSS_SCL_SSS_PERSONAL_INFO > table {
+    width: 100%;
+}
