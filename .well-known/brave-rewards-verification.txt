@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: sidpagariya.github.io
+Token: 210b8e3b5e5db9a82be0e8a5f3726fbb0e125e8fecd1849643d315e41413c9fd
